@@ -8,21 +8,4 @@
 	max-width: 1200px;
 	margin: 0px auto;
 }
-.header {
-	grid-area: header;
-	background-color: rgb(150, 79, 209);
-}
-.header img {
-	max-width: 60px;
-}
-.nav {
-	grid-area: nav;
-	background-color: rgb(202, 78, 196);
-}
-.content {
-	grid-area: content;
-	background-color: rgb(184, 61, 132);
-}
-/* .content div img {
-	min-width: 100%;
-} */
+

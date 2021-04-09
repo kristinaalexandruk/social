@@ -1,4 +1,22 @@
 .nav {
 	grid-area: nav;
 	background-color: rgb(202, 78, 196);
+	padding: 20px;
+}
+
+.link {
+	margin: 0px 0px 10px 0px;
+}
+
+.link a {
+	color:#fff;
+	text-decoration: none;
+}
+
+.link a.activeLink {
+	color: #ffe252
+}
+
+.link a:hover {
+	text-decoration: underline;
 }

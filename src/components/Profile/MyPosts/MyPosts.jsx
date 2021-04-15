@@ -9,11 +9,10 @@ const MyPosts = (props) => {
 	let postsElements = props.posts.map(post => <Post message={post.message} likesCount={post.likesCount} />);
 
 	let newPostElement = React.createRef();
-
 	let addPost = () => {
 		let text = newPostElement.current.value;
-		alert(text);
-	};
+		props.addPost(text);
+	}
 
 	return (
 		<div className={c.postsBlock}>
